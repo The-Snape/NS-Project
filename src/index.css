@@ -2,7 +2,9 @@
 
 .inpit {
   padding: 20px;
-  /* position: fixed; */
+  position: relative;
+  width: 30%;
+  font-size: medium;
   /* border-color: #f1356d; */
   margin: 20px;
 }
@@ -15,7 +17,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 1000px;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
