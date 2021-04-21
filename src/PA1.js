@@ -6,6 +6,7 @@ const PA1 = () => {
     let l = msg.length;
     var nmsg = "";
     setplaintext(msg);
+    console.log(plaintext)
     for (let i = 0; i < l; i++) {
       let x = msg.charCodeAt(i);
       if (x >= 65 && x <= 90) {
